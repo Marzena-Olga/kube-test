@@ -12,7 +12,7 @@ spec:
   #    - to-mk-k8s-m1.nam.lan
   #  secretName: tls-secret
   rules:
-    - host: jenkins.nam.cz
+    - host: to-mk-k8s-m1.nam.lan
       http:
         paths:
         - path: /mk-webapp
